@@ -1,75 +1,85 @@
-/* Reset */
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-div{
-    margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+section{
+    background-color: gray;
+    color: white;
+    margin: 10px;
 }
 
-.sheet{
-    background-color: aquamarine;
+.contenedor-main{
     width: 60%;
-    text-align: center;
-    margin: auto;
-    padding: auto;
-}
-.sheet .data {
-    background-color: bisque;
+    /* justify-content: space-between; */
+    background-color: aqua;
+    /* display: inline-block;
+    flex-direction: row; */
     
-    
-}
-.sheet .data .logo {
-    display: inline-block;
-    width: 20%;
-
-    background-color: black;
-    
-}
-    
-.sheet .data .information {
-    display: inline-block;
-
-    width: 50%;
-    justify-content: center;
+    /* height: 300px;
+    padding: 20px;
+    display: flex;
     align-items: center;
-    /* padding: 10px; */
-    text-align: left;
-    padding: 10px;
-
-    background-color: rebeccapurple;
-
+    justify-content: space-between;  */
 }
-.sheet .data .contact {
+.data {
+    /* width: auto;
     display: inline-block;
-    width: 25%;
-    
-    /* position: auto; */
-    background-color: red;
-
-
+    flex-direction: row; */
 }
 
-.sheet .about{
-    background-color: aliceblue;
-}
-
-.sheet .education{
+.informacionPersonal{
+    /* margin: 50px; */
+    text-align: center;
     background-color: blue;
 }
-
-.sheet .skills{
+.contactoInfo {
+    text-align: right;
     background-color: blueviolet;
+
 }
 
-.sheet .reference {
+.fotoPerfil{
+    /* margin-right: 20px; */
+    width: 160px;
+    height: 160px;
     background-color: brown;
-
+    border-radius: 50%;
+    text-align: left;
 }
 
-.sheet .interest {
-    background-color: aqua;
+
+.colorRed{
+    color: red;
 }
+
+.grid-container{
+    /* width: 80%;
+    margin: 0 auto;
+    padding: 20px; */
+    display: grid;
+    grid-template-columns: 15% auto auto;
+
+}
+.row2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: auto;
+}
+
+.row3{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: auto;
+}
+
+/* .aboutMe{
+    width: 50%;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+
+} */
+
+/* .educacion{
+    width: 50%;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+
+} */
